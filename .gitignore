@@ -3,3 +3,4 @@ src/tmp/
 src/logs/
 .vscode/
 .idea/
+.env
