@@ -1,3 +1,13 @@
 # FrameworkPW
-Projeto 3° período 
-![](https://github.com/mxtqn/FrameworkPW/blob/master/ReadMe/CakeLogo.png?raw=true)
+Projeto 3° período - Desenvolver uma aplicação
+
+Aplicação escolhida - Página de postar, editar e excluir poemas e citações. 
+
+## Utilizados
+🐳 Docker
+
+🧁 CakePhp
+
+🐘 PHP
+
+🐘 PostgreSQL
