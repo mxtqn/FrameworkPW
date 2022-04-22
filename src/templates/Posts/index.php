@@ -1,7 +1,8 @@
 <!-- File: templates/posts/index.php -->
 
 <h1>Posts</h1>
-<?= $this->Html->link('Add', ['action' => 'add']) ?>
+
+
 <table>
     <tr>
         <th>ID</th>
@@ -11,7 +12,7 @@
     </tr>
 
     <!-- Here is where we iterate through our $posts query object, printing out post info -->
-
+    
     <?php foreach ($posts as $post) : ?>
         <tr>
             <td>
@@ -35,3 +36,7 @@
         </tr>
     <?php endforeach; ?>
 </table>
+
+<h1> </h1>
+
+<?= $this->Html->link('Add', ['action' => 'add']) ?>

@@ -10,3 +10,6 @@
     echo $this->Form->button(__('Save post'));
     echo $this->Form->end();
 ?>
+
+
+
