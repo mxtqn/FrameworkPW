@@ -20,11 +20,11 @@ class PostsTable extends Table
     {
         $validator
             ->notEmptyString('title')
-            ->minLength('title', 10)
+            ->minLength('title', 5)
             ->maxLength('title', 255)
 
             ->notEmptyString('body')
-            ->minLength('body', 10);
+            ->minLength('body', 1);
 
         return $validator;
     }

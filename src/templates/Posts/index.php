@@ -3,6 +3,8 @@
 <h1>Posts</h1>
 
 
+<?php echo $this->Form->button(__('Save post'));?>
+
 <table>
     <tr>
         <th>ID</th>
@@ -40,3 +42,7 @@
 <h1> </h1>
 
 <?= $this->Html->link('Add', ['action' => 'add']) ?>
+
+
+
+<?= $this->Html->button('Add', ['action' => 'add']) ?>
